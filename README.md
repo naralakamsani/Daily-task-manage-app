@@ -1,2 +1,10 @@
 # Daily-task-manager
-An app that connects an SQL database, and interactively allows users to update, add, delete task that need to be completed
+
+### Project Overview
+* An app that connects an SQL database
+* Interactively allows users to update, add task that needs to be completed
+* Also alloows user to delete tasks that have been finished
+
+### Install(run on command line)
+- pip install bokeh
+- pip install pandas-datareader
