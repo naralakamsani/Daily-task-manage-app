@@ -7,4 +7,4 @@
 
 ### Install(run on command line)
 - pip install sqlite3
-- pip install pandas-datareader
+- pip install tkinter
