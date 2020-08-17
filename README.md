@@ -6,5 +6,5 @@
 * Also alloows user to delete tasks that have been finished
 
 ### Install(run on command line)
-- pip install sqlite3
-- pip install tkinter
+- pip install pysqlite
+- pip install python-tk
