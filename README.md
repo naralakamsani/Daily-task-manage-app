@@ -6,4 +6,4 @@
 * Also allows user to delete tasks that have been finished
 
 ### Run
-*Only need to frontend.py
+* Only need to frontend.py
