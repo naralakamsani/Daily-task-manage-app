@@ -1,6 +1,7 @@
 from tkinter import *
 from backend import Database
 
+#Instantiate database object
 database = Database()
 
 
