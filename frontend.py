@@ -89,21 +89,27 @@ sb1.grid(row=2, column=2, rowspan=6)
 list1.configure(yscrollcommand=sb1.set)
 sb1.configure(command=list1.yview)
 
+#View all tasks button
 b1 = Button(window, text="View all tasks", width=12, command=view_command)
 b1.grid(row=2, column=3)
 
+#Search button
 b2 = Button(window, text="Search", width=12, command=search_command)
 b2.grid(row=3, column=3)
 
+#Addd button
 b3 = Button(window, text="Add task", width=12, command=add_command)
 b3.grid(row=4, column=3)
 
+#Updatebutton
 b4 = Button(window, text="Update task", width=12, command=update_command)
 b4.grid(row=5, column=3)
 
+#Delete button
 b5 = Button(window, text="Delete task", width=12, command=delete_command)
 b5.grid(row=6, column=3)
 
+#Close button
 b6 = Button(window, text="Close", width=12, command=window.destroy)
 b6.grid(row=7, column=3)
 
