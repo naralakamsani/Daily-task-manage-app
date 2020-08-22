@@ -50,15 +50,19 @@ def delete_command():
 
 window = Tk()
 
+# Create task label
 l1 = Label(window, text="Task")
 l1.grid(row=0, column=0)
 
+# Create date label
 l2 = Label(window, text="Date")
 l2.grid(row=0, column=2)
 
+# Create time label
 l3 = Label(window, text="Time")
 l3.grid(row=1, column=0)
 
+# Create priority label
 l4 = Label(window, text="Priority")
 l4.grid(row=1, column=2)
 
