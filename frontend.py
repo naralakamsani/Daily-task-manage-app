@@ -66,18 +66,22 @@ l3.grid(row=1, column=0)
 l4 = Label(window, text="Priority")
 l4.grid(row=1, column=2)
 
+# Create entry for user to name the task
 task_text = StringVar()
 e1 = Entry(window, textvariable=task_text)
 e1.grid(row=0, column=1)
 
+# Create entry for user to provide the date task is due
 date_text = StringVar()
 e2 = Entry(window, textvariable=date_text)
 e2.grid(row=0, column=3)
 
+# Create entry for user to provide the time task is due
 time_text = StringVar()
 e3 = Entry(window, textvariable=time_text)
 e3.grid(row=1, column=1)
 
+# Create entry for user to define the priority
 priority_text = StringVar()
 e4 = Entry(window, textvariable=priority_text)
 e4.grid(row=1, column=3)
