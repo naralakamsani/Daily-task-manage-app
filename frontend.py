@@ -4,7 +4,7 @@ from backend import Database
 #Instantiate database object
 database = Database()
 
-
+# defining the commands to be executed on button click
 def get_selected_row(event):
     try:
         global selected_tuple
