@@ -21,7 +21,7 @@ def get_selected_row(event):
     except IndexError:
         pass
 
-
+# define functions that are executed on button press
 def view_command():
     list1.delete(0, END)
     for row in database.view():
